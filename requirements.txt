@@ -1,0 +1,6 @@
+pandas==1.2.2
+numpy==1.18.4
+plotly==4.14.3
+emoji==1.2.0
+wordcloud==1.8.1
+dash==1.19.0
