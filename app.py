@@ -169,8 +169,9 @@ def update_graph(slct_ppl, slct_time):
 
 	tSeries.update_layout(
 					title=f'Tren of Message Count Per-{slct_time}', 
-					title_x=0.5, 
 					title_font_size=28, 
+					xaxis_title=slct_time, 
+					yaxis_title='Message Count',
 					plot_bgcolor=colors['background'], 
 					paper_bgcolor=colors['background'], 
 					font_color=colors['text'], 
@@ -191,7 +192,6 @@ def update_graph(slct_ppl, slct_time):
 
 	EmojiBar.update_layout(
 					title=f'Top Emoji Used', 
-					title_x=0.5, 
 					title_font_size=28, 
 					plot_bgcolor=colors['background'], 
 					paper_bgcolor=colors['background'], 
