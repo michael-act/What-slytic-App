@@ -17,7 +17,7 @@ app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 
 # ------------------------------------------------------------------------------
 # Menyiapkan data yang telah bersih
-chatdf = cleanData('PUT YOUR WHATSAPP CHAT TXT FILE HERE!')
+chatdf = cleanData('PUT YOUR WHATSAPP CHAT TXT FILE HERE!') # Example: Chat whatsapp grup tkj a.txt
 
 ppList = [{'label': i, 'value': i} for i in chatdf['author'].unique()]
 
