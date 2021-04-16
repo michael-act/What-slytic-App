@@ -1,7 +1,7 @@
 <p align="center">
 	
 <img align="center" src="http://ForTheBadge.com/images/badges/built-with-love.svg">
-<a href="https://www.youtube.com/watch?v=m2xIyaOjjo8"> Preview Dashboard Video: 19:02</a>
+<a href="https://www.youtube.com/watch?v=m2xIyaOjjo8"> Preview Dashboard Video: Menit 19:02</a>
 
 </p>
 
