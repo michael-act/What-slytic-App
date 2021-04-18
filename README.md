@@ -34,5 +34,5 @@ Jangan ragu untuk memeriksa halaman masalah jika Anda ingin berkontribusi.
 
 
 ## 📝 License
-- Copyright © 2020 Michael A.C Tulenan.
+- Copyright © 2020 Michael Abraham Chan Tulenan.
 - **This Repository is open-sourced software licensed under the MIT license.**
