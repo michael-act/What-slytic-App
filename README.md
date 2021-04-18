@@ -23,6 +23,13 @@ Repository ini dibuat dan dikelola oleh <a href="https://github.com/michael-act"
 
 ------------
 
+## 💻 Install & Penggunaan
+
+1. **Download / Clone Repository** ```https://github.com/michael-act/What-slytic-App ```
+2. **Install Python3 Module** ```pip3 install -r requirements.txt ```
+3. **Taruh nama file teks whatsapp txt yang telah di export ke TXT** ```Contoh: "C:\Users\ZypZ\Desktop\Chatnya breeeee 12345.txt"```
+4. **Jalankan File Telegram Bot.py** ```python3 app.py ```
+
 ## 🧑 Author
 
 - Facebook : <a href="https://www.facebook.com/michael.actt"> Michael Act</a>
