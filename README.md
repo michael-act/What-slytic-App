@@ -6,7 +6,7 @@
 </p>
 
 ### 🤔 Repository apa ini?
-Repository ini dibuat dan dikelola oleh <a href="https://github.com/michael-act"> Michael A.C Tulenan </a>. **What'slytic App adalah dashboard yang digunakan untuk menganalisa teks whatsapp yang telah di export ke TXT berbahasa Indonesia.**
+Repository ini dibuat dan dikelola oleh <a href="https://github.com/michael-act"> Michael Act </a>. **What'slytic App adalah dashboard yang digunakan untuk menganalisa teks whatsapp yang telah di export ke TXT berbahasa Indonesia.**
 
 ### 🤖 Bantuan aplikasi
 - Python v3.8.3rc1
@@ -26,7 +26,7 @@ Repository ini dibuat dan dikelola oleh <a href="https://github.com/michael-act"
 ## 🧑 Author
 
 - Facebook : <a href="https://www.facebook.com/michael.actt"> Michael Act</a>
-- LinkedIn : <a href="https://www.linkedin.com/in/michael-act/"> Michael A.C Tulenan</a>
+- LinkedIn : <a href="https://www.linkedin.com/in/michael-act/"> Michael Abraham Chan Tulenan</a>
 
 ## 🤝 Contributing
 Contributions, issues and feature requests di persilahkan.
