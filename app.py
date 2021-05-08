@@ -12,8 +12,11 @@ from dash.dependencies import Input, Output
 from io import BytesIO
 import base64
 
+import flask
+
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
-app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app = flask.Flask(__name__)
+dash_app = dash.Dash(__name__, server=app, external_stylesheets=external_stylesheets)
 
 # ------------------------------------------------------------------------------
 # Menyiapkan data yang telah bersih
@@ -31,7 +34,7 @@ colors = {
 		'text-2': '#cee5d1', 
 		'line': '#382933'}
 
-app.layout = html.Div(style={'backgroundColor': colors['main-background']}, children=[
+dash_app.layout = html.Div(style={'backgroundColor': colors['main-background']}, children=[
 	html.Div(
 		id='banner', 
 		children=[
@@ -140,7 +143,7 @@ app.layout = html.Div(style={'backgroundColor': colors['main-background']}, chil
 # ------------------------------------------------------------------------------
 # MengKoneksikan objek Plotly dan objek Visualisasi lainnya 
 # dengan komponen-komponen dash
-@app.callback(
+@dash_app.callback(
 	[Output(component_id='message-tseries', component_property='figure'), 
 	Output(component_id='emoji-barh', component_property='figure'), 
 	Output(component_id='small-summary', component_property='children'), 
@@ -280,4 +283,4 @@ def update_graph(slct_ppl, slct_time):
 
 # ------------------------------------------------------------------------------
 if __name__ == '__main__':
-	app.run_server(debug=True)
+	app.run(host='0.0.0.0', debug=True, port=80)
